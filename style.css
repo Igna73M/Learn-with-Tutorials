@@ -1,0 +1,86 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    transition: all 0.03s ease-in-out;
+    margin: .5rem 2rem;
+    color: rgb(94, 94, 4);
+}
+
+body {
+    text-align: center;
+    background-color: ghostwhite;
+}
+
+body>ul {
+    position: relative;
+}
+
+li {
+    list-style: none;
+    background-color: rgba(0, 0, 0, 0.753);
+    padding: 1rem;
+    color: yellow;
+    border-radius: 3px;
+    font-weight: 700;
+    font-size: 1.3rem;
+}
+
+h1 {
+    font-weight: 800;
+    text-decoration: underline;
+}
+
+small {
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: yellow;
+}
+
+.hide {
+    z-index: -100;
+    visibility: hidden;
+    position: absolute;
+    top: 50%;
+    left: 40%;
+    padding: 0;
+    margin: 0;
+}
+
+.hide ul a,
+.hide ul a li {
+    padding: 0;
+    margin: 0;
+}
+a{
+    margin: 1rem;
+}
+.show{
+    color: yellow;
+    font-size: 1rem;
+}
+.color {
+    color: rgb(94, 94, 4);
+    background-color: transparent;
+}
+
+button {
+    cursor: pointer;
+    background-color: transparent;
+    width: 100%;
+    height: 100%;
+    font-weight: 800;
+    border: none;
+}
+
+button:hover {
+    text-decoration: underline;
+}
+
+#Challenges {
+    height: fit-content;
+}
