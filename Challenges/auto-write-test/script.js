@@ -1,4 +1,4 @@
-const text = "I'm an aspiring software engineer located in Kigali, the capital city of Rwanda👨‍💻.";
+const text = "I'm an aspiring software engineer👨‍💻.";
 
 
 let index = 0;
